@@ -33,13 +33,13 @@
     python demo-test.py    (修改代码中的图片名称)
 
 
-
- **检测车牌区域** 
+**分步检测：**
+     **检测车牌区域** 
     - 训练：`python train.py -c config_license_plates.json`(zoo中提供json文件）
     - 预测：`python predict.py -c config_license_plates.json -i /path/to/image/or/video`
             直接将检测出的车牌区域裁剪出并缩小一倍（以便加速OCR的识别），并保存到‘/tr/cut/’文件夹中
 
- **车牌文本识别** 
+     **车牌文本识别** 
     - `python test.py`（需根据自己的数据集路径进行修改）
 
 
