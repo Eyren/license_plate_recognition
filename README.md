@@ -45,11 +45,11 @@
 
 #### 数据集文件结构
 
-├── license-plate-dataset-master		数据集存放位置             	
-│   ├── dataset  	车牌数据集
-│   │   ├── train  	训练数据集
-│   │   │   ├── images  训练图片
-│   │   │   └── annots  训练标签
-│   │   ├── valid  	验证数据集
-│   │   │   ├── images  验证图片
-│   │   │   └── annots  验证标签
+- ├── license-plate-dataset-master		数据集存放位置             	
+- │   ├── dataset  	车牌数据集
+- │   │   ├── train  	训练数据集
+- │   │   │   ├── images  训练图片
+- │   │   │   └── annots  训练标签
+- │   │   ├── valid  	验证数据集
+- │   │   │   ├── images  验证图片
+- │   │   │   └── annots  验证标签
