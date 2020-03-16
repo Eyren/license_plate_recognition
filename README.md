@@ -29,6 +29,11 @@
 
 #### 使用说明
 
+ **测试单张图片**
+    python demo-test.py    (修改代码中的图片名称)
+
+
+
  **检测车牌区域** 
     - 训练：`python train.py -c config_license_plates.json`(zoo中提供json文件）
     - 预测：`python predict.py -c config_license_plates.json -i /path/to/image/or/video`
@@ -38,3 +43,13 @@
     - `python test.py`（需根据自己的数据集路径进行修改）
 
 
+#### 数据集文件结构
+
+├── license-plate-dataset-master		数据集存放位置             	
+│   ├── dataset  	车牌数据集
+│   │   ├── train  	训练数据集
+│   │   │   ├── images  训练图片
+│   │   │   └── annots  训练标签
+│   │   ├── valid  	验证数据集
+│   │   │   ├── images  验证图片
+│   │   │   └── annots  验证标签
